@@ -1,8 +1,6 @@
 # CouldaShouldaWoulda
 
-TODO: Delete this and the text below, and describe your gem
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/coulda_shoulda_woulda`. To experiment with that code, run `bin/console` for an interactive prompt.
+So much to do, so little time. Prioritize projects based on your current mood.
 
 ## Installation
 
@@ -22,7 +20,7 @@ gem install UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
 
 ## Usage
 
-TODO: Write usage instructions here
+TODO
 
 ## Development
 
@@ -32,7 +30,9 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/sean-garwood/coulda_shoulda_woulda.
+Bug reports and pull requests are welcome on GitHub at
+<https://github.com/sean-garwood/coulda_shoulda_woulda>. If you have the time and
+in the mood, that is.
 
 ## License
 
