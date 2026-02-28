@@ -1,8 +1,41 @@
 AllCops:
-  TargetRubyVersion: 3.2
+  NewCops: enable
+  TargetRubyVersion: 3.4
 
-Style/StringLiterals:
-  EnforcedStyle: double_quotes
+Bundler/DuplicatedGem:
+  Enabled: true
 
-Style/StringLiteralsInInterpolation:
-  EnforcedStyle: double_quotes
+Gemspec/DevelopmentDependencies:
+  EnforcedStyle: gemspec
+
+Layout/LineLength:
+  Max: 80
+  Exclude:
+    - "Guardfile"
+
+Layout/IndentationConsistency:
+  Enabled: true
+
+Metrics/BlockLength:
+  Exclude:
+    - "test/**/*.rb"
+
+Metrics/MethodLength:
+  Max: 15
+  Exclude:
+    - "test/**/*.rb"
+
+Naming/MethodParameterName:
+  Enabled: false
+
+Style/CommentedKeyword:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+# Default behavior in Ruby 3.4+ is to freeze string literals.
+# See [ruby 3.4 release
+# notes](https://www.ruby-lang.org/en/news/2024/12/25/ruby-3-4-0-released/#language-changes)
+Style/FrozenStringLiteralComment:
+  Enabled: false
