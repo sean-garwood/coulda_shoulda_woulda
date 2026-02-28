@@ -28,6 +28,22 @@ After checking out the repo, run `bin/setup` to install dependencies. Then, run 
 
 To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
+### Project structure
+
+```
+coulda_shoulda_woulda/
+├── exe/
+│   └── csw                            # the installed executable
+├── lib/
+│   ├── coulda_shoulda_woulda/
+│   │   └── version.rb
+│   └── coulda_shoulda_woulda.rb       # entrypoint
+├── test/
+├── Gemfile
+├── coulda_shoulda_woulda.gemspec
+└── README.md
+```
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at

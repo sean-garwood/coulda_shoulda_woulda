@@ -19,6 +19,7 @@ Layout/IndentationConsistency:
 Metrics/BlockLength:
   Exclude:
     - "test/**/*.rb"
+    - "coulda_shoulda_woulda.gemspec"
 
 Metrics/MethodLength:
   Max: 15
